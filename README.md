@@ -1,23 +1,17 @@
 <h1 align="center">Hi there 👋, I'm Olzhas</h1>
-<h3 align="center">I'm Olzhas Tuimekhan, a passionate Android Developer and Backend Developer from Kazakhstan</h3>
+<h3 align="center">I'm Olzhas Tuimekhan, ML Engineer and Backend Developer from Kazakhstan</h3>
 
 ![snake gif](https://github.com/OlzhassTuimekhan/OlzhassTuimekhan/blob/output/github-contribution-grid-snake.svg)
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=olzhasstuimekhan" alt="olzhasstuimekhan" /></a> </p>
 
-
-<h3 align="left">👨‍💻 About Me</h3>
-I am an energetic and ambitious engineering student specializing in Android app development.
-Passionate about building high-quality, efficient apps that solve real user problems, I am proficient
-in Kotlin and Java.
-
 <h3 align="left">🎓 Education</h3>
 
 
 
-- 🔭 I’m currently working on [Grand-Hotel](https://github.com/OlzhassTuimekhan/Grand-Hotel)
+- 🔭 I’m currently working on [Audio Service](https://github.com/OlzhassTuimekhan/Bizdin-Audio)
 
-- 🌱 I’m currently learning **Jetpack Compose, Node.js, Retrofit**
+- 🌱 I’m currently learning **Yolo, Computer Vision**
 
 - 👨‍💻 All of my projects are available at [GitHub](https://github.com/OlzhassTuimekhan)
 
