@@ -7,8 +7,6 @@
 
 <h3 align="left">🎓 Education</h3>
 
-
-
 - 🔭 I’m currently working on [Audio Service](https://github.com/OlzhassTuimekhan/Bizdin-Audio)
 
 - 🌱 I’m currently learning **Yolo, Computer Vision**
