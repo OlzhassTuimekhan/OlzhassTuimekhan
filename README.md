@@ -1,6 +1,7 @@
 <h1 align="center">Hi there 👋, I'm Olzhas</h1>
 <h3 align="center">I'm Olzhas Tuimekhan, ML Engineer and Backend Developer from Kazakhstan</h3>
 
+
 ![snake gif](https://github.com/OlzhassTuimekhan/OlzhassTuimekhan/blob/output/github-contribution-grid-snake.svg)
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=olzhasstuimekhan" alt="olzhasstuimekhan" /></a> </p>
