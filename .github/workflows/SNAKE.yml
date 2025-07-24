@@ -2,7 +2,7 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"      # раз в сутки
+    - cron: "0 0 * * *" 
   workflow_dispatch:
   push:
     branches: [ main ]
@@ -11,7 +11,7 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     
-    # 👇 ВОТ ЭТО НУЖНО ДОБАВИТЬ
+    
     permissions:
       contents: write  # Даем права на запись в репозиторий
 
