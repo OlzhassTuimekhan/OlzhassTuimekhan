@@ -13,7 +13,7 @@ jobs:
     
     
     permissions:
-      contents: write  # Даем права на запись в репозиторий
+      contents: write  
 
     steps:
       # 1. Клонируем репо
