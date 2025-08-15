@@ -19,7 +19,7 @@ jobs:
       # 1. Клонируем репо
       - uses: actions/checkout@v4
 
-      # 2. Генерируем SVG-змейку 
+      # 2. Генерируем SVG-змейку  
       - uses: Platane/snk@v3.2.0
         with:
           github_user_name: OlzhassTuimekhan
