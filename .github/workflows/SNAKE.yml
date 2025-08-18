@@ -2,35 +2,38 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *" 
+    - cron: "7 */6 * * *"     # каждые 6 часов, не в начале часа (UTC)
   workflow_dispatch:
   push:
-    branches: [ main ] 
+    branches: [ main ]
 
-jobs: 
+# Права для GITHUB_TOKEN на весь workflow
+permissions:
+  contents: write
+
+jobs:
   generate:
     runs-on: ubuntu-latest
-    
-    
-    permissions:
-      contents: write  
-
+    timeout-minutes: 10
+    concurrency: snake  # чтобы не пересекались ранные
     steps:
-      # 1. Клонируем репо
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      # 2. Генерируем SVG-змейку  
-      - uses: Platane/snk@v3.2.0
+      # Быстрый рендер только SVG
+      - name: Generate SVGs
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: OlzhassTuimekhan
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # 3. Публикуем файл в ветку output
-      - uses: crazy-max/ghaction-github-pages@v3
+      # Публикация в ветку output (обновись до v4)
+      - name: Deploy to output branch
+        uses: crazy-max/ghaction-github-pages@v4
         with:
-          target_branch: output    # куда положим svg
-          build_dir: dist          # откуда брать файлы
+          target_branch: output
+          build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
